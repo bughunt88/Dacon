@@ -18,6 +18,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from transformers import *
 
+# filepath='/Users/bughunt/Downloads/2차 배포/dirty_mnist_2nd/%05d.png'%i
+
 train=pd.read_csv('C:/last/open/train.csv')
 test=pd.read_csv('C:/last/open/test.csv')
 sample_submission=pd.read_csv('C:/last/open/sample_submission.csv')
