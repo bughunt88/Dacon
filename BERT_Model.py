@@ -18,7 +18,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from transformers import *
 
-#bert 기본 모델
+#bert 기본 모델!!!!
 
 # filepath='/Users/bughunt/Downloads/2차 배포/dirty_mnist_2nd/%05d.png'%i
 
